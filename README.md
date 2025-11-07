@@ -524,7 +524,7 @@ impl BasqetIndexNav {
 
 ### 7.2 Event-Driven Architecture
 
-Replacing CosmWasm callbacks with Soroban's event system:
+Soroban's event system:
 
 ```rust
 pub fn initiate_complex_rebalance(env: &Env, vault_id: u64) -> Result<(), Error> {
